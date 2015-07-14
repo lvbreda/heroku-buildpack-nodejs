@@ -16,6 +16,11 @@ install_node_modules() {
   fi
 }
 
+install_graphicmagicks() {
+  echo "Installing graphicmagicks"
+  apt-get install graphicmagicks
+}
+
 rebuild_node_modules() {
   local build_dir=${1:-}
 

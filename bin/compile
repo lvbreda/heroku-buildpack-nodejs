@@ -81,6 +81,7 @@ install_bins() {
     install_nodejs "$node_engine" "$BUILD_DIR/.heroku/node"
   fi
   install_npm "$npm_engine" "$BUILD_DIR/.heroku/node"
+  install_graphicmagicks
   warn_old_npm
 }
 
